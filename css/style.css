@@ -1,0 +1,45 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.imagen-de-fundo-header{
+    width: calc(100% - 20px);
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+}
+
+.imagens-com-padding{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo{
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+}
+
+/* Nav */
+nav{
+    margin-top:  110px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul-nav{
+    display: flex;
+    list-style: none;
+}
+.ul-nav li{
+    padding: 10px;
+}
+
+a{
+    color: black;
+}
