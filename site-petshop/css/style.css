@@ -1,7 +1,11 @@
-/* Reset */
+/* Reset's */
 *{
     margin: 0;
     padding: 0;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
 /* Header */
@@ -81,5 +85,48 @@ h3{
 
 /* Serviços */
 .section-serviços{
+    background-color: yellowgreen;
+}
+
+/* Contatos */
+.section-contatos{
+    margin: 10px;
+}
+
+.p-formulario{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 5px;
+}
+
+.inputs-form{
+    border: 1px solid yellowgreen;
+    padding: 5px;
+}
+.container-contatos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-contatos p.texto-no-centro{
+    margin-bottom: 10px;
+}
+
+.btn-enviar{
+    padding: 10px;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    cursor: pointer;
+}
+abbr{
+    text-decoration: none;
+}
+
+/* footer */
+footer{
+    margin-top: 20px;
+    padding: 10px;
     background-color: yellowgreen;
 }
