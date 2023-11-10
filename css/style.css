@@ -49,13 +49,18 @@ a{
 }
 
 /* Main */
-
+.formatacao-flex-containers{
+    display: flex;
+    justify-content: space-evenly;
+}
 /* Sobre Nós*/
 .section-sobre-nos{
     background-color: yellowgreen;
     margin: 10px;
     padding: 10px;
-    display: flex;
+}
+.formatacao-boxs{
+    width: 550px;
 }
 
 .img-sobre{
@@ -107,7 +112,7 @@ h3{
 }
 .container-contatos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .section-contatos p.texto-no-centro{
