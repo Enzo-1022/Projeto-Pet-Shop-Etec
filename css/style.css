@@ -93,6 +93,8 @@ h3{
     height: 150px;
     display: flex;
     align-items: center;
+    border: 1px solid yellowgreen;
+    padding: 2px;
 }
 /* Serviços */
 .section-serviços{
