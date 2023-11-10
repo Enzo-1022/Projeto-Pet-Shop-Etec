@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
@@ -16,7 +17,7 @@ textarea:focus, input:focus, select:focus {
     z-index: 2;
 }
 
-.imagens-com-padding{
+.figure-header{
     padding: 10px;
     position: relative;
     display: flex;
@@ -88,9 +89,16 @@ h3{
     border-radius: 5px;
 }
 
+.figures-produtos{
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
 /* Serviços */
 .section-serviços{
     background-color: yellowgreen;
+    padding: 10px;
+    margin: 10px;
 }
 
 /* Contatos */

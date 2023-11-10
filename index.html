@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <figure class="imagens-com-padding">
+        <figure class="figure-header">
             <img src="imagens/fundo-topo.jpg" alt="Imagem de Fundo" class="imagen-de-fundo-header">
             <img src="imagens/logo-mari-e-gabi-petshop.svg" alt="Logo" class="img-logo">
         </figure>
@@ -16,30 +16,30 @@
 
     <nav>
         <ul class="ul-nav">
-            <li><a href="#">Sobre</a></li>
+            <li><a href="#section-sobre-nos">Sobre</a></li>
             <li>
                 <figure>
                     <img src="imagens/patinha-preta.png" alt="Pata Preta">
                 </figure>
             </li>
-            <li><a href="#">Produtos</a></li>
+            <li><a href="#section-produtos">Produtos</a></li>
             <li>
                 <figure>
                     <img src="imagens/patinha-preta.png" alt="Pata Preta">
                 </figure>
             </li>
-            <li><a href="#">Serviços</a></li>
+            <li><a href="#section-servicos">Serviços</a></li>
             <li>
                 <figure>
                     <img src="imagens/patinha-preta.png" alt="Pata Preta">
                 </figure>
             </li>
-            <li><a href="#">Contatos</a></li>
+            <li><a href="#section-contatos">Contatos</a></li>
         </ul>
     </nav>
 
     <main>
-        <section class="section-sobre-nos formatacao-flex-containers">
+        <section class="section-sobre-nos formatacao-flex-containers" id="section-sobre-nos">
             <div class="formatacao-boxs">
                 <h2>Sobre nós:</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur corrupti neque magni exercitationem, perferendis numquam vel praesentium quam ipsam ab, quidem sequi iusto laudantium modi ratione cupiditate, autem non mollitia?</p>
@@ -49,27 +49,27 @@
             </figure>
         </section>
         
-        <section>
+        <section id="section-produtos">
             <h2 class="texto-no-centro">Produtos:</h2>
             <p class="texto-no-centro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae accusantium, dolorum delectus illum natus quae quam quas suscipit reiciendis maiores? Quam sint voluptatibus ea hic consequuntur quasi nisi culpa.</p>
 
             <div class="container-produtos">
                 <div class="texto-no-centro">
-                    <figure>
+                    <figure class="figures-produtos">
                         <img src="imagens/produto-1.jpg" alt="Produto 1">
                     </figure>
                     <h3>Pet Produto #1</h3>
                     <a href="#"><img src="imagens/patinha-preta.png" alt=""> Comprar</a>
                 </div>
                 <div class="texto-no-centro ">
-                    <figure>
+                    <figure class="figures-produtos">
                         <img src="imagens/produto-2.jpg" alt="Produto 2">
                     </figure>
                     <h3>Pet Produto #2</h3>
                     <a href="#"><img src="imagens/patinha-preta.png" alt=""> Comprar</a>
                 </div>
                 <div class="texto-no-centro ">
-                    <figure>
+                    <figure class="figures-produtos">
                         <img src="imagens/produto-3.jpg" alt="Produto 3">
                     </figure>
                     <h3>Pet Produto #3</h3>
@@ -78,7 +78,7 @@
             </div>
         </section>
 
-        <section class="formatacao-flex-containers section-serviços">
+        <section class="formatacao-flex-containers section-serviços" id="section-servicos">
             <div class="formatacao-boxs">
                 <h2>Serviços</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit corrupti fugit possimus quod corporis, ipsa id animi? Alias dicta, ratione quibusdam vel dignissimos amet, culpa voluptate, recusandae eum neque qui.</p>
@@ -90,7 +90,7 @@
             </figure>
         </section>
 
-        <section class="section-contatos">
+        <section class="section-contatos" id="section-contatos">
             
             <h2 class="texto-no-centro">Contatos</h2>
             <p class="texto-no-centro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla voluptate pariatur, minima libero possimus quisquam dolor quod nostrum architecto, earum optio, ex alias qui dolorem ducimus rem velit nisi quia?</p>
@@ -99,23 +99,23 @@
                 <form action="">
                     <p class="p-formulario">
                         <label for="input-nome">Nome:</label>
-                        <input type="text" name="" id="input-nome" class="inputs-form">
+                        <input type="text" name="" id="input-nome" class="inputs-form" placeholder="Insira seu nome completo">
                     </p>
                     <p class="p-formulario">
                         <label for="">Email:</label>
-                        <input type="email" name="" id="input-email" class="inputs-form">
+                        <input type="email" name="" id="input-email" class="inputs-form" placeholder="exemplo@teste.com.br">
                     </p>
                     <p class="p-formulario">
                         <label for="input-telefone">Telefone:</label>
-                        <input type="tel" name="" id="input-telefone" class="inputs-form">
+                        <input type="tel" name="" id="input-telefone" class="inputs-form" placeholder="(11) 0000-0000 ou (11) 90000-0000">
                     </p>
                     <p class="p-formulario">
                         <label for="input-assunto">Assunto:</label>
-                        <input type="text" name="" id="input-assunto" class="inputs-form">
+                        <input type="text" name="" id="input-assunto" class="inputs-form" placeholder="Insira aqui o assunto da sua mensagem">
                     </p>
                     <p class="p-formulario">
                         <label for="">Mensagen:</label>
-                        <textarea name="" id="" cols="30" rows="10" class="inputs-form"></textarea>
+                        <textarea name="" id="" cols="30" rows="10" class="inputs-form" placeholder="Insira aqui sua mensagem"></textarea>
                     </p>
                     <button class="btn-enviar" type="submit">Enviar</button>
                 </form>
