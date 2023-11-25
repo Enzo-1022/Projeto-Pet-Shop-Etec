@@ -54,14 +54,18 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
+
+.formatacao-boxs{
+    max-width: 550px;
+    display: flex;
+    flex-direction:column
+}
+
 /* Sobre Nós*/
 .section-sobre-nos{
     background-color: yellowgreen;
     margin: 10px;
     padding: 10px;
-}
-.formatacao-boxs{
-    width: 550px;
 }
 
 .img-sobre{
@@ -182,5 +186,63 @@ footer{
     /* Produtos */
     .section-produtos{
         margin: 10px;
+    }
+}
+
+@media (max-width: 600px){
+
+    /* sobre nós */
+    .img-sobre{
+        width: 60vw;
+    }
+    .formatacao-boxs{
+        text-align: center;
+    }
+
+    /* serviços */
+   .figure-serviços div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .figure-serviços div>img{
+    margin-bottom: 2px;
+   }
+    /* Contatos */
+    .p-formulario{
+        width: 80vw
+    }
+    .div-iframe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 375px){
+    /* Nav Bar */
+    .ul-nav{
+        display: block;
+    }
+    li{
+        padding: 2px;
+        border: 1px solid yellowgreen;
+        width: 85vw;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    /* iframe */
+    .iframe-maps{
+        width: 80vw;
+    }
+}
+
+@media (max-width: 320px){
+    .p-endereco{
+        text-align: center;
     }
 }
