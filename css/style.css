@@ -145,3 +145,42 @@ footer{
     padding: 10px;
     background-color: yellowgreen;
 }
+
+/* MEDIAS QUERIES */
+@media (max-width: 1024px){
+    .iframe-maps{
+        width:400px;
+    }
+    .formatacao-boxs{
+        margin-left: 10px
+    }
+    .formatacao-flex-containers figure{
+        margin-right: 10px
+    }
+}
+
+@media (max-width: 768px){
+    /* Produtos */
+    .container-produtos{
+        display: block;
+    }
+    .container-produtos div{
+        margin-bottom: 20px;
+    }
+    .figures-produtos{
+        justify-content: center;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    /* Serviços */
+    .formatacao-flex-containers, .container-contatos{
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    /* Produtos */
+    .section-produtos{
+        margin: 10px;
+    }
+}
